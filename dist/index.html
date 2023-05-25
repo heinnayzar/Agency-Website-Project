@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/967663d7e2.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<!-- Navigation Bar -->
+    <nav class="border-b sticky top-0 bg-white bg-opacity-95">
+        <div class="container mx-auto flex justify-between flex-row items-center py-2">
+            <!-- Logo -->
+            <!-- <h1 class="text-3xl font-semibold">Portfolio</h1> -->
+            <div>
+                <img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/logo.svg" alt="Logo">
+            </div>
+            <!-- Nav links -->
+            <ul class="flex items-center gap-16">
+                <li class="hover:text-blue-500 "><a href="#Home">Home</a></li>
+                <li class="hover:text-blue-500 "><a href="#AboutUs">About</a></li>
+                <li class="hover:text-blue-500 "><a href="#Services">Services</a></li>
+                <li class="hover:text-blue-500 "><a href="#">Pricing</a></li>
+                <li class="hover:text-blue-500 "><a href="#">Contact</a></li>
+                <li class="relative group">
+                    <a class="hover:text-blue-500 flex justify-center items-center gap-1" href="#">
+                        Pages
+                        <i class="fa-solid fa-angle-down"></i>                       
+                    </a>
+                <!-- Dropdown menu -->
+                    <div class="absolute invisible group-hover:visible shadow-xl p-4 w-52 bg-white">
+                        <ul class="flex flex-col gap-4 mx-2">
+                            <li class=" hover:text-blue-500 text-sm"><a href="#">Portfolio Details Page</a></li>
+                            <li class=" hover:text-blue-500 text-sm"><a href="#">Blog Grid Page</a></li>
+                            <li class=" hover:text-blue-500 text-sm"><a href="#">Blog Details Page</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <!-- Button -->
+            <button class="bg-blue-500 text-white px-11 py-3 rounded-full hover:shadow-lg font-semibold">Get a Quote</button>
+        </div>
+    </nav>
+<!-- First Section -->
+    <section class="flex first-row w-screen mx-auto container mt-12 mb-24">
+        <!-- Left Section -->
+        <div class="w-1/2 container mx-auto pr-36">
+            <h1 class="text-5xl font-semibold">
+                Tailwind CSS Site
+                Template For Portfolio
+            </h1>
+            <p class="mt-8 text-gray-400">A Complete Tailwind CSS Website Template Specially Crafted for - Digital Agency, Design Agency and Portfolio and Business Websites. Comes with All Essential Components and Pages You Need to Launch a Complete Portfolio Site.</p>
+            <div class="mt-8 flex flex-row gap-12">
+                <button class="bg-blue-500 hover:bg-blue-400 rounded-md text-white px-8 py-4 font-semibold">Get Started</button>
+                <div class="flex flex-row items-center justify-center">
+                    <a class=" text-gray-400 hover:text-blue-500 gap-2" href="#">
+                        <i class="fa-solid fa-download text-white bg-blue-500 text-xs border p-1 rounded-full"></i>
+                        Download Brochure                       
+                    </a>
+                </div>
+            </div>
+            <p class="text-sm text-gray-400 mt-24 mb-8">Some Of Our Clients  _____</p>
+            <div class="flex flex-row gap-8">
+                <a href="#"><img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/ayroui-1.svg" alt="Image"></a>
+                <a href="#"><img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/graygrids-1.svg" alt="Image"></a>
+                <a href="#"><img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/uideck-1.svg" alt="Image"></a>
+            </div>
+        </div>
+        <!-- Right Image Section -->
+        <div class="w-1/2 flex justify-end">
+            <img class="" src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/hero-image-01.png" alt="photo">
+        </div>
+    </section>
+
+    <section id="AboutUs" class="container mx-auto mb-36 flex flex-row pt-32">
+        <div class="w-1/2 mr-36">
+            <h3 class="text-2xl font-extrabold text-blue-500">About Us</h3>
+            <h1 class="text-5xl font-semibold mt-6">Better design, better experience</h1>
+            <p class="mt-6 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui ligula, malesuada vel convallis in, tincidunt ut mi Vestibulum sit amet.</p>
+        </div>
+        <div class="w-1/2 ml-36">
+            <h2 class="text-3xl font-semibold ">Connect With Us</h2>
+            <p class="mt-6 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui ligula, malesuada vel convallis in, tincidunt ut mi. Vestibulum sit amet urna placerat, tempor soloa demanium testi lor Aliq lorem vitae semper tempor.</p>
+            <div class="mt-6 flex flex-row gap-4 items-center">
+                <a href="#AboutUs">
+                    <i class="fa-brands fa-facebook-f rounded-full text-gray-400 border border-gray-400 p-2 hover:bg-blue-500 hover:text-white hover:border-blue-500 w-8"></i>
+                </a>
+                <a href="#AboutUs" class="flex flex-row justify-center">
+                    <i class="fa-brands fa-twitter rounded-full text-gray-400 border border-gray-400 p-2 hover:bg-blue-500 hover:text-white hover:border-blue-500 w-8"></i>
+                </a>
+                <a href="#AboutUs">
+                    <i class="fa-brands fa-youtube rounded-full text-gray-400 border border-gray-400 p-2 hover:bg-blue-500 hover:text-white hover:border-blue-500 w-8"></i>
+                </a>
+                <a href="#AboutUs">
+                    <i class="fa-brands fa-instagram rounded-full text-gray-400 border border-gray-400 p-2 hover:bg-blue-500 hover:text-white hover:border-blue-500 w-8"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+<!-- Second Section -->
+    <section id="Services" class="bg-indigo-950">
+        <div class="container mx-auto py-32">
+            <div class="flex flex-row">
+                <div class="w-1/2">
+                    <h4 class="text-blue-500 text-lg font-semibold">WHAT WE DO</h4>
+                    <h1 class="text-5xl font-semibold text-white mt-2">We help to build clients their dream projects</h1>
+                </div>
+                <div class="w-1/2 flex items-end justify-end"> 
+                    <a class="text-white hover:text-blue-500 underline text-lg" href="#Services">EXPLORE SERVICES</a>
+                </div>
+            </div>
+<!-- Card Section -->
+            <div class="flex flex-row gap-10 mt-24">
+                <article class="bg-white w-1/3">
+                    <img class="w-full p-0" src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/service-01.jpg" alt="Image">
+                    
+                    <div class="p-10">
+                        <h3 class="text-xl font-semibold">Website Development</h3>
+                        <p class="text-gray-400 mt-4 mb-4">Lorem ipsum is simply dummy text of the printing typesetting lorem ipsum been dummy text.</p>
+                        <hr class="mb-4">
+                        <a class="hover:text-blue-500 text-gray-400 mt-4 flex items-center" href="#Services">View Details
+                            <i class="fa-solid fa-arrow-right-long ml-4"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="bg-white w-1/3">
+                    <img class="w-full p-0" src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/service-02.jpg" alt="Image">
+                    
+                    <div class="p-10">
+                        <h3 class="text-xl font-semibold">Website Development</h3>
+                        <p class="text-gray-400 mt-4 mb-4">Lorem ipsum is simply dummy text of the printing typesetting lorem ipsum been dummy text.</p>
+                        <hr class="mb-4">
+                        <a class="hover:text-blue-500 text-gray-400 mt-4 flex items-center" href="#Services">View Details
+                            <i class="fa-solid fa-arrow-right-long ml-4"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="bg-white w-1/3">
+                    <img class="w-full p-0" src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/service-03.jpg" alt="Image">
+                    
+                    <div class="p-10">
+                        <h3 class="text-xl font-semibold">Website Development</h3>
+                        <p class="text-gray-400 mt-4 mb-4">Lorem ipsum is simply dummy text of the printing typesetting lorem ipsum been dummy text.</p>
+                        <hr class="mb-4">
+                        <a class="hover:text-blue-500 text-gray-400 mt-4 flex items-center" href="#Services">View Details
+                            <i class="fa-solid fa-arrow-right-long ml-4"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+<!-- Third Section -->
+    <section class="container mx-auto">
+        <div class="flex flex-col gap-4 mt-32 justify-center items-center px-80">
+            <h4 class="font-semibold text-blue-500 text-lg">Creative Portfolio</h4>
+            <h1 class="font-semibold text-5xl">Recent Works</h1>
+            <p class="text-lg text-gray-400 text-center">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+        </div>
+        <div class="mt-12 mb-28">
+            <div class="flex gap-8 justify-center">
+                <button class="hover:bg-blue-500 hover:text-white px-6 py-3 rounded-full">All</button>
+                <button class="hover:bg-blue-500 hover:text-white px-6 py-3 rounded-full">Web Designs</button>
+                <button class="hover:bg-blue-500 hover:text-white px-6 py-3 rounded-full">Graphics</button>
+                <button class="hover:bg-blue-500 hover:text-white px-6 py-3 rounded-full">Apps</button>
+            </div>
+
+            <div class="mt-12 flex flex-row justify-center gap-12">
+                <article class="w-1/3">
+                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/portfolio-01.jpg" alt="Image">
+                    <h2 class="text-xl font-semibold hover:text-blue-500 mt-8">Startup landing page</h2>
+                    <p class="mt-6 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.</p>
+                </article>
+
+                <article class="w-1/3">
+                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/portfolio-02.jpg" alt="Image">
+                    <h2 class="text-xl font-semibold hover:text-blue-500 mt-8">Job portal landing page
+                    </h2>
+                    <p class="mt-6 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.</p>
+                </article>
+            </div>
+
+            <div class="mt-12 flex flex-row justify-center gap-12">
+                <article class="w-1/3">
+                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/portfolio-03.jpg" alt="Image">
+                    <h2 class="text-xl font-semibold hover:text-blue-500 mt-8">SaaS landing page</h2>
+                    <p class="mt-6 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.</p>
+                </article>
+
+                <article class="w-1/3">
+                    <img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/portfolio-04.jpg" alt="Image">
+                    <h2 class="text-xl font-semibold hover:text-blue-500 mt-8">Business & corporate template</h2>
+                    <p class="mt-6 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+<!-- Forth Section -->
+    <section class="bg-indigo-950 w-screen pb-10">
+        <div class="px-96 pt-12 text-center gap-4 flex flex-col items-center justify-center">
+            <h1 class="text-white font-semibold text-4xl">Some of Our Happy Clients</h1>
+            <p class="text-gray-400 text-center text-lg">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+        </div>
+
+        <div class="flex flex-row gap-8 justify-center mt-12 items-center mx-32">
+            <a href="https://uideck.com/"><img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/uideck.svg" alt="Image"></a>
+            <a href="https://tailgrids.com/"><img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/tailgrids.svg" alt="Image"></a>
+            <a href="https://lineicons.com/"><img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/lineicons.svg" alt="Image"></a>
+            <a href="https://ayroui.com/"><img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/ayroui.svg" alt="Image"></a>
+            <a href="https://plainadmin.com/"><img src="https://portfolio-tailwind.preview.uideck.com/demos/agency/images/plainadmin.svg" alt="Image"></a>
+        </div>
+        <div class="container mx-auto border-blue-500 rounded-md bg-blue-500 px-48 py-32 mt-24">
+            <h1 class="text-5xl text-white font-semibold text-center">Want to work together and create amazing products?</h1>
+            <div class="flex justify-center items-center mt-12 gap-4">
+                <input class="placeholder:text-white border-none rounded-full px-8 py-4 bg-blue-400 text-white" type="text" placeholder="Enter Your Email">
+                <button class="border rounded-full  bg-white text-blue-500 px-8 py-4">Get a Quote</button>
+            </div>
+        </div>
+    </section>
+</html>
